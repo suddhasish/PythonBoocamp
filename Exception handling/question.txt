@@ -1,0 +1,30 @@
+Practice Questions
+Q.1 Write a function that takes a list of strings values (containing both numbers and strings) as input and performs the following tasks:
+
+It initializes a new empty list.
+Then, it iterates over this input list.
+If the value is an integer, then it calculates the sum of digits and stores the sum in the new list.
+If it is a string, then it simply stores NAN(Not a Number) for that place.
+In the end, it returns the result.
+Sample Input: [‘22’, ‘Sam’, ‘33’, ‘44’]
+Sample Output: [4, ‘NAN’, 6, 8]
+
+ 
+
+Note: This can also be done using if-else, but for your practice, you should use try-except only.
+ 
+
+Q.2 Write a function that accepts a list of ages (integers) as input. Now you need to perform the following tasks:
+
+Create a log file named ‘age_log.py’ in append mode.
+Iterate through the list of integers.
+For each user, you need to check the age and do the following in the log file:
+If age <= 0, write a warning message showing ‘Invalid age’.
+If age > 18, write a debug message showing ‘adult’.
+If age < 18, write a debug message showing ‘teenager’.
+Note that the format of the message needs to be {‘date and time’ - ‘name of the logger’ - ‘level’ - ‘message’}.
+ 
+
+Note: These questions are for your practice. So, try to attempt them before checking the solutions below.
+
+ 
